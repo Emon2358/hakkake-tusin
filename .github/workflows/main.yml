@@ -1,4 +1,9 @@
+# .github/workflows/render-readme-image.yml
 name: Render README & Publish Release
+
+# トークンにリリース作成／アセットアップロードのための書き込み権限を付与
+permissions:
+  contents: write
 
 on:
   push:

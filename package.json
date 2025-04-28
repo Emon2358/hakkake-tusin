@@ -1,1 +1,14 @@
-
+{
+  "name": "hakkake-tusin",
+  "version": "1.0.0",
+  "description": "Render README.md to image and publish 八掛通信 release",
+  "main": "script/render_readme.js",
+  "scripts": {
+    "render": "node script/render_readme.js"
+  },
+  "dependencies": {
+    "marked": "^4.0.0",
+    "puppeteer": "^19.0.0",
+    "github-markdown-css": "^5.1.0"
+  }
+}
